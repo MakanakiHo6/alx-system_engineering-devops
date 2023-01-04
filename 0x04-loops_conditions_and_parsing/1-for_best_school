@@ -1,14 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
 
-# Set the loop counter to 0
 count=0
 
-# Use a for loop to iterate 10 times
 for ((i=0; i<10; i++))
 do
-  # Increment the loop counter
+
   count=$((count+1))
   
-  # Display "Best School"
   echo "Best School"
 done
